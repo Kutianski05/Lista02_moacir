@@ -1,5 +1,8 @@
 package Atv3;
 
-public class Exponenciacao {
-    
+class Exponenciacao extends Operacao{
+    @Override
+    public double executar(double a, double b){
+        return Math.pow(a, b);
+    }
 }

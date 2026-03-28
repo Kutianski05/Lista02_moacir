@@ -1,7 +1,6 @@
 package Atv2;
 
 class Twitter extends RedeSocial{
-    int twitch;
     @Override
     public void postar(String mensagem){
         if(mensagem.length() < 280){
